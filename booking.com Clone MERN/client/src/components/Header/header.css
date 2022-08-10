@@ -1,0 +1,119 @@
+.header{
+    color:white;
+    background-color: #003580;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.headerContainer{
+    width: 100%;
+    max-width: 1160px; 
+    margin: 20px 0px  90px 0px;   
+}
+
+.headerContainer.list{
+    margin: 20px 0px  0px 0px;   
+}
+
+.headerList{
+    color: white;
+    display: flex;
+    gap: 40px;
+    margin-bottom: 50px;
+}
+
+.headerListItem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.headerListItem.active{
+    border: 1px solid white;
+    padding: 10px;
+    border-radius: 20px;
+}
+
+.headerBtn{
+    border: none;
+    padding: 10px;
+    background-color: #0071c2;
+    font-weight: 500;
+    color:white
+}
+
+.headerDisc{
+    margin: 20px 0px;
+}
+
+.headerSearch{
+    /* height: 30px; */
+    background-color: white;
+    border: 3px solid #febb02;
+    display: flex;
+    align-items: center;
+    justify-content:space-around;
+    padding: 3px 0px;
+    border-radius: 5px;
+    position: absolute;
+    bottom: -25px;
+    width: 100%;
+    max-width:1160px; 
+}
+
+.headerIcon{
+    color: rgb(158, 146, 146);
+}
+
+.headerSearchItem{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.headerSearchInput{
+    border:none;
+    outline: none;
+}
+
+.headerSearchText{
+    color: rgb(158, 146, 146); 
+}
+
+.date{
+    position: absolute;
+    top: 60px;
+    z-index: 2;
+}
+
+.option{
+    position: absolute;
+    top: 60px;
+    background-color: white;
+    color: rgb(158, 146, 146);
+    border-radius: 5px;
+    z-index: 2;
+}
+
+.optionItem{
+    width: 220px;
+    display: flex;
+    justify-content: space-between;
+    /* padding: 10px 10px; */
+    margin: 10px;
+}
+
+.optionCounterBtn{
+    margin:0 5px;
+    width: 30px;
+    height: 30px;
+    border: 1px solid #0071c2;
+    color:#0071c2;
+    cursor: pointer;
+}
+
+.optionCounterBtn:disabled{
+    cursor: not-allowed;
+}
+

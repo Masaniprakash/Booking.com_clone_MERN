@@ -1,0 +1,17 @@
+.homeContainer{
+    margin-top: 50px;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    gap: 30px;
+}
+
+.homeTitleTwo{
+   margin-top: 30px;
+}
+
+.homeTitle{
+    width: 100%;
+    max-width: 1160px;
+    font-size: 20px;
+}

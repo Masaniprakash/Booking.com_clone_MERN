@@ -1,0 +1,50 @@
+.navbar{
+    height: 50px;
+    background-color: #003580;
+    display: flex;
+    justify-content: center;
+    
+}
+.navContainer{
+    width: 100%;
+    max-width: 1160px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* position: fixed;
+    height: 50px;
+    top:0;
+    background-color: #003580;
+    z-index: 6; */
+}
+
+.logo,.userName{
+    font-weight: 500;
+    font-size: x-large;
+    text-transform: capitalize;
+}
+
+.navButton{
+    margin-left: 20px;
+    padding: 5px 10px;
+    border: none;
+    color:white;
+    background-color: #0071c2;
+    font-weight: 500;
+    /* cursor: pointer; */
+}
+
+.userName{
+    margin-right: 10px;
+    align-items: center;
+}
+
+.logoutBtn{
+    border: none;
+    padding: 10px;
+    background-color: #0071c2;
+    font-weight: 500;
+    color: white;
+    margin-right: 10px;
+}
